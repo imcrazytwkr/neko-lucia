@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noEmit": true,
+    "paths": {
+      "@ducheved/neko-lucia": ["./packages/lucia/src/index.ts"],
+      "@ducheved/neko-lucia-adapter-drizzle": ["./packages/adapter-drizzle/src/index.ts"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022",
+    "types": ["node"],
+    "verbatimModuleSyntax": true
+  },
+  "include": ["packages/**/*.ts", "tests/**/*.ts"]
+}
